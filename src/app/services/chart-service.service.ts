@@ -14,7 +14,7 @@ export class ChartServiceService {
 
   getDataChartCountry(country:string) {
     return this.http.get(
-      `http://localhost/jhu-edu/timeseries?iso2=${country}&onlyCountries=true`
+      `https://master-covid-19-api-laeyoung.endpoint.ainize.ai/jhu-edu/timeseries?iso2=${country}&onlyCountries=true`
     );
   }
   sortObject(obj: any) {

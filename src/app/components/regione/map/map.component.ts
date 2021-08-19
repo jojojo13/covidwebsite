@@ -72,7 +72,7 @@ export class MapComponent implements OnInit {
           color: 'rgb(250, 160, 160)',
           radius: radius,
           fillColor: 'rgb(250, 160, 160)',
-          opacity: 0.6,
+          opacity: 0.5,
         }
       ).addTo(this.map);
     }

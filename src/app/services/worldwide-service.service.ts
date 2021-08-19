@@ -9,6 +9,6 @@ export class WorldwideServiceService {
   constructor(private http:HttpClient) { }
 
   getTotal(){
-   return  this.http.get('http://localhost/jhu-edu/brief')
+   return  this.http.get('https://master-covid-19-api-laeyoung.endpoint.ainize.ai/jhu-edu/brief')
   }
 }

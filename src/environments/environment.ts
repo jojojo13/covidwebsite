@@ -4,15 +4,7 @@
 
 export const environment = {
   production: false,
-  firebaseConfig : {
-    apiKey: "AIzaSyDQdrwzlGvSm9hUQY_xUiD_kKs8sNiSLE8",
-    authDomain: "mockproject-fee.firebaseapp.com",
-    databaseURL: "https://mockproject-fee-default-rtdb.firebaseio.com",
-    projectId: "mockproject-fee",
-    storageBucket: "mockproject-fee.appspot.com",
-    messagingSenderId: "102819179405",
-    appId: "1:102819179405:web:3979c1fb72756ee8bcebc4"
-  }
+ 
   
 };
 
