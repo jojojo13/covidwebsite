@@ -1,0 +1,19 @@
+<div class="contain">
+  <h2>News</h2>
+  <div class="news">
+    <a
+      target="”_blank”"
+      [href]="item.url"
+      class="item"
+      *ngFor="let item of items | async"
+    >
+      <div class="content">
+        <h3>{{ item.name }}</h3>
+        <div class="imgBox">
+          <img [src]="item.imgUrl" alt="" />
+        </div>
+      </div>
+      <p>{{ item.description }}</p>
+    </a>
+  </div>
+</div>

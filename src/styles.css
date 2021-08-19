@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: #454d55
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-paginator-page-size {
+  display: none !important;
+}
+
+.mat-paginator-container {
+  background-color: #343a40;
+  color: white;
+}
+@media screen and(max-width:768px) {
+    .item{
+        width: 40%;
+        margin-top: 20px;
+      }
+    .more{
+      flex-direction: column;
+    }
+    .linechart{
+      width: 100%;
+    }
+}
