@@ -33,7 +33,7 @@ export class RegionalListComponent implements OnInit, OnChanges {
     this.regionservice.getDataByRegion(this.regionName).subscribe((re) => {
       this.region = re;
       this.region[0].fatal = this.region[0]?.deaths / this.region[0]?.confirmed;
-      console.log(this.region);
+     
     });
   }
 

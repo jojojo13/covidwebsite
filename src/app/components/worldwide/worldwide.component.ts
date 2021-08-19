@@ -16,7 +16,6 @@ export class WorldwideComponent implements OnInit {
     
     this.service.getTotal().subscribe(data=>{
       this.worldWideData=data
-      console.log(this.worldWideData)
       this.fatality=this.worldWideData.deaths/this.worldWideData.confirmed
     })
   }

@@ -27,9 +27,8 @@ export class RegioneComponent implements OnInit {
   }
 
   dataSelection() {
-    this.listName = this.list.map((item: any) => {
-   
-      return item;
+    this.listName = this.list.filter((item: any) => {   
+        return Boolean(item.countrycode);
     });
 
     this.regionservice.allRegion=this.listName;

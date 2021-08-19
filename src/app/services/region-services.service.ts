@@ -13,7 +13,7 @@ export class RegionServicesService {
     'Content-Type': 'application/json',
   });
 
-  allRegion:any
+  allRegion!:Array<any>
   constructor(private http: HttpClient) {}
 
   getAllRegion():Observable<[]> {

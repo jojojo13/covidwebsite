@@ -22,6 +22,12 @@ body {
   background-color: #343a40;
   color: white;
 }
+.leaflet-interactive{
+  stroke: rgb(252, 140, 159) ;
+  opacity: 0.5;
+  fill: rgb(247, 111, 134) !important;
+
+}
 @media screen and(max-width:768px) {
     .item{
         width: 40%;
